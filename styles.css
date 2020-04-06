@@ -1,0 +1,18 @@
+/* Global modifications */
+
+html {
+    box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+
+/* Header section */
+
+header>div>h1 {
+    text-align: center;
+}
