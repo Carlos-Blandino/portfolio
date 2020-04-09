@@ -21,3 +21,92 @@ html {
 header>div>h1 {
     text-align: center;
 }
+
+header>div {
+    background-color: rgb(176, 147, 203);
+}
+
+.main-nav {
+    text-align: center;
+}
+
+.main-nav>nav>ul>li {
+    margin: 5px 10px;
+    display: inline;
+    font-size: 1.25em;
+}
+
+.main-nav>nav>ul>li>a {
+    text-decoration: none;
+}
+
+
+/***** nav links ****************/
+
+.main-nav>nav>ul>li>a:link {
+    color: #000;
+}
+
+.main-nav>nav>ul>li>a:visited {
+    color: rgb(80, 94, 60);
+}
+
+.main-nav>nav>ul>li>a:hover {
+    color: #000;
+}
+
+.main-nav>anv>ul>li>a:active {
+    color: #000;
+}
+
+
+/***** end of nav links *************/
+
+
+/* end of header */
+
+
+/* main */
+
+.main-wrapper {
+    margin: auto;
+    text-align: center;
+    background-color: azure;
+    width: 780px;
+}
+
+#home {
+    background-color: burlywood;
+    height: 500px;
+}
+
+#about {
+    background-color: cornflowerblue;
+    height: 500px;
+}
+
+#contact {
+    background-color: darkkhaki;
+    height: 500px;
+}
+
+#services {
+    background-color: azure;
+    height: 500px;
+}
+
+#portfolio {
+    background-color: chocolate;
+    height: 500px;
+}
+
+
+/* end of main */
+
+
+/* footer */
+
+footer>div {
+    text-align: center;
+    background-color: aquamarine
+}
