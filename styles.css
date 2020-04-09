@@ -18,16 +18,16 @@ html {
 
 /* Header section */
 
-header>div>h1 {
-    text-align: center;
-}
-
-header>div {
+.main-nav {
+    padding: 3vh;
+    height: 25vh;
+    background-attachment: fixed;
     background-color: rgb(176, 147, 203);
 }
 
-.main-nav {
-    text-align: center;
+.main-nav>nav {
+    position: ablsolute;
+    height: auto;
 }
 
 .main-nav>nav>ul>li {
@@ -38,6 +38,11 @@ header>div {
 
 .main-nav>nav>ul>li>a {
     text-decoration: none;
+}
+
+.main-nav>nav>ul {
+    position: absolute;
+    right: 5%;
 }
 
 
@@ -55,8 +60,16 @@ header>div {
     color: #000;
 }
 
-.main-nav>anv>ul>li>a:active {
+.main-nav>nav>ul>li>a:active {
     color: #000;
+}
+
+.logo {
+    display: inline-block;
+    position: absolute;
+    top: 2%;
+    left: 5%;
+    width: auto;
 }
 
 
@@ -72,7 +85,7 @@ header>div {
     margin: auto;
     text-align: center;
     background-color: azure;
-    width: 780px;
+    width: auto;
 }
 
 #home {
