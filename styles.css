@@ -18,11 +18,15 @@ html {
 
 /* Header section */
 
+header {
+    font-family: 'Open Sans', sans-serif;
+}
+
 .main-nav {
     padding: 3vh;
-    height: 25vh;
-    background-attachment: fixed;
-    background-color: rgb(176, 147, 203);
+    height: 15vh;
+    background-color: #000;
+    color: #fff;
 }
 
 .main-nav>nav {
@@ -33,7 +37,7 @@ html {
 .main-nav>nav>ul>li {
     margin: 5px 10px;
     display: inline;
-    font-size: 1.25em;
+    font-size: 1.25rem;
 }
 
 .main-nav>nav>ul>li>a {
@@ -49,27 +53,27 @@ html {
 /***** nav links ****************/
 
 .main-nav>nav>ul>li>a:link {
-    color: #000;
+    color: #D25F12;
 }
 
 .main-nav>nav>ul>li>a:visited {
-    color: rgb(80, 94, 60);
+    color: #893d0b;
 }
 
 .main-nav>nav>ul>li>a:hover {
-    color: #000;
+    color: rgb(223, 202, 85);
 }
 
 .main-nav>nav>ul>li>a:active {
-    color: #000;
+    color: #bc794d;
 }
 
-.logo {
-    display: inline-block;
-    position: absolute;
-    top: 2%;
-    left: 5%;
-    width: auto;
+.logo>div>img {
+    float: left;
+    top: 3%;
+    left: 3%;
+    width: 60px;
+    margin: 10px 10px;
 }
 
 
@@ -81,6 +85,9 @@ html {
 
 /* main */
 
+
+/******** home start ************/
+
 .main-wrapper {
     margin: auto;
     text-align: center;
@@ -90,8 +97,34 @@ html {
 
 #home {
     background-color: burlywood;
+    background-image: url(images/1.jpg);
+    background-size: cover;
     height: 500px;
 }
+
+.main-section-header {
+    position: relative;
+    top: 25vh;
+    right: 0;
+    background-color: #d78c31cf;
+    width: 50vw;
+    border-radius: 15px;
+}
+
+.main-section-header>h1 {
+    font-size: 3rem;
+    font-family: 'Roboto', sans-serif;
+    text-decoration: underline;
+}
+
+.main-section-header>p {
+    font-size: 1.5rem;
+    color: rgb(39, 36, 36);
+    text-decoration: none;
+}
+
+
+/******** home end *********/
 
 #about {
     background-color: cornflowerblue;
