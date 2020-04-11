@@ -62,26 +62,6 @@ header {
     color: #fff;
 }
 
-.main-nav nav {
-    position: ablsolute;
-    height: auto;
-}
-
-.main-nav li {
-    margin: 5px 10px;
-    display: inline;
-    font-size: 1.25rem;
-}
-
-.main-nav a {
-    text-decoration: none;
-}
-
-.main-nav>nav>ul {
-    position: absolute;
-    right: 5%;
-}
-
 .logo img {
     float: left;
     top: 3%;
@@ -107,6 +87,22 @@ header {
 
 .main-nav a:active {
     color: #bc794d;
+}
+
+.nav li {
+    margin: 5px 10px;
+    display: inline;
+    font-size: 1.25rem;
+}
+
+.nav a {
+    text-decoration: none;
+}
+
+.nav ul {
+    float: right;
+    position: relative;
+    padding: 2vh 2vw;
 }
 
 
