@@ -1,9 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
 
+<!--Using 2 google fonts one for logo and the other for the remaining copy-->
+
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width">
     <title>CB Web Pro</title>
     <link rel="stylesheet" href="styles.css" type="text/css">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
@@ -14,6 +16,9 @@
     <header>
         <div id="main" class="main-nav">
             <nav>
+
+                <!--Create the the navigation from the list items-->
+
                 <ul>
                     <li><a href="#main">Home</a></li>
                     <li><a href="#about">About</li>
@@ -22,6 +27,9 @@
                     <li><a href="#contact">Contact</a></li>
                 </ul>
             </nav>
+
+            <!--Create the Logo and insert the image-->
+
             <div class="logo">
                 <div><img src="images/icon.jpg" alt=""></div>
                 <h1>Carlos Blandino</h1>
@@ -31,6 +39,9 @@
     </header>
 
     <main>
+
+        <!--Landing page starts here, background image, and tag lines-->
+
         <article>
             <div id="home">
                 <section>
@@ -44,6 +55,10 @@
                 </section>
             </div>
 
+            <!--Landing page ends here-->
+
+
+            <!--About section starts here-->
 
             <div id="about">
                 <section>
@@ -59,7 +74,8 @@
                         <p>Things that I picked up along the way:</p>
                         <div></div>
 
-                        <div class="pictures"><img src="images/379901_2635901172361_1954063916_n.jpg" width="275px" alt="I at a christmas party"></div>
+                        <div class="pictures"><img src="images/379901_2635901172361_1954063916_n.jpg" width="275px" alt="I at a christmas party">
+                        </div>
                         <ul>
                             <li>Javascript</li>
                             <li>c++</li>
@@ -80,11 +96,15 @@
 
             </div>
 
+            <!--About section ends here-->
 
             </section>
             </div>
 
             <hr>
+
+            <!--Portfolio section starts here-->
+
             <div id="portfolio">
                 <section>
                     <div class="portfolio-main">
@@ -93,12 +113,12 @@
                         </header>
                         <div>
                             <div class="project-images">
-                                <img src="images/student_grade_table_2.jpg" alt="picture of the pong game">
+                                <img src="images/student_grade_table_2.jpg" alt="image of student grade table interface">
                                 <p>Student project applying the bootstrap, ajax, and mysql.</p>
                             </div>
 
                             <div class="project-images">
-                                <img src="images/form_validation_2.jpg" alt="">
+                                <img src="images/form_validation_2.jpg" alt="image of an input form interface">
                                 <p>Student project using HTML5 input types and utilizing Javascript regular expressions</p>
                             </div>
 
@@ -110,7 +130,12 @@
                 </section>
             </div>
 
+            <!--Portfolio section ends here-->
+
             <hr>
+
+            <!--Service section starts here-->
+
             <div id="services">
                 <section>
                     <div class="services-main">
@@ -125,34 +150,42 @@
                 </section>
             </div>
 
+            <!--Service section ends here-->
+
             <hr>
+
+            <!--Contact section starts here -->
+
             <div id="contact">
                 <div class="contact-main">
                     <section>
                         <header>
                             <h2>Contact Carlos</h2>
                         </header>
-                        <div id="contact-form">
+                        <div id="contact-form"></div>
 
-                            <form method="post" action="" name="contactform" id="contactform">
-                                <input type="text" name="name" placeholder="Name" id="name">
-                                <input type="email" name="email" placeholder="E-mail" id="email">
-                                <textarea name="comments" placeholder="Message" id="comments"></textarea>
-                                <input type="#submit" id="submit" value="Send Message" />
-                            </form>
-                        </div>
+                        <!--Contact form starts here-->
+
+                        <form method="post" action="" name="contactform" id="contactform">
+                            <input type="text" name="name" placeholder="Name" id="name">
+                            <input type="email" name="email" placeholder="E-mail" id="email">
+                            <textarea name="comments" placeholder="Message" id="comments"></textarea>
+                            <input type="#submit" id="submit" value="Send Message" />
+                        </form>
                 </div>
-
                 </section>
             </div>
 
+
             </div>
 
+            <!--contact section ends-->
+
         </article>
-
-
-
     </main>
+
+    <!--Footer section -->
+
     <footer>
         <div>
             <nav></nav>

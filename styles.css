@@ -4,12 +4,6 @@ html {
     box-sizing: border-box;
 }
 
-*,
-*:before,
-*:after {
-    box-sizing: inherit;
-}
-
 * {
     margin: 0;
     padding: 0;
@@ -21,7 +15,7 @@ body {
 }
 
 main h2 {
-    color: #D25F12;
+    color: #d25f12;
     margin: 0 0 20px 0;
 }
 
@@ -98,7 +92,7 @@ header {
 /***** nav links ****************/
 
 .main-nav>nav>ul>li>a:link {
-    color: #D25F12;
+    color: #d25f12;
 }
 
 .main-nav>nav>ul>li>a:visited {
@@ -120,13 +114,12 @@ header {
 /* end of header */
 
 
-/* main */
+/***** main starty **************/
 
 
-/******** home start ************/
+/******** home start - Billboard ************/
 
 #home {
-    /* background-color: burlywood; */
     background-image: url(images/1.jpg);
     background-size: cover;
     height: 75vh;
@@ -156,13 +149,9 @@ header {
 }
 
 
-/******** home end *********/
-
-
 /******** about start ********/
 
 #about {
-    /* background-color: cornflowerblue; */
     height: auto;
     padding: 5vh 0;
 }
@@ -174,10 +163,9 @@ header {
 }
 
 
-/******* about end ***********/
+/****** contact Start *********/
 
 #contact {
-    /* background-color: darkkhaki; */
     height: auto;
     padding: 5vh 0;
 }
@@ -188,8 +176,10 @@ header {
     text-align: left;
 }
 
+
+/********Services Start**********/
+
 #services {
-    /* background-color: azure; */
     height: auto;
     padding: 5vh 0;
 }
@@ -200,8 +190,10 @@ header {
     text-align: left;
 }
 
+
+/**********Portfolio Start***********/
+
 #portfolio {
-    /* background-color: chocolate; */
     height: auto;
     padding: 5vh 0;
 }
@@ -219,13 +211,13 @@ header {
 }
 
 
-/* end of main */
+/*******end of main *********/
 
 
 /* footer */
 
 footer>div {
     text-align: center;
-    background-color: #D25F12;
+    background-color: #d25f12;
     color: #fff;
 }
