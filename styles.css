@@ -73,6 +73,7 @@ button {
     color: black;
     border-radius: 5px;
     font-size: 1.25rem;
+    cursor: pointer;
 }
 
 .social-button {
