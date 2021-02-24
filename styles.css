@@ -162,7 +162,6 @@ nav {
     justify-content: center;
 }
 
-
 /***** end of nav links *************/
 
 
@@ -439,7 +438,13 @@ footer div {
 
         position: relative;
         top: 175px;
-        left: -25px;
+        left: -30px;
+    }
+
+    #home {
+        background-image: url(images/2.jpg);
+        background-size: cover;
+        background-position: bottom left;
     }
 
 }
