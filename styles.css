@@ -218,27 +218,72 @@ nav {
 
 
 .about-main {
-    display: flex;
-    flex-direction: row;
+
     width: 70vw;
     max-width: 1000px;
     margin: 0 auto;
     text-align: left;
 }
 
+
+
 .about-main div {
-    margin: 50px 10px;
+    margin: 0 10px 50px 10px;
 }
 
 .pictures img {
-    margin-top: 45px;
+    margin-top: 43px;
+    width: 100%;
 }
+
+.skills {
+    color: white;
+    display: flex;
+    flex-direction: row;
+    width: 70vw;
+    max-width: 1000px;
+    justify-content: space-evenly;
+    position: relative;
+    right: 13px;
+}
+
+.skills-background {
+    border-radius: 15px;
+    padding-top: 35px;
+    background-color: rgb(2, 2, 2);
+}
+
+.skills h2 {
+    margin-bottom: -35px;
+    color: #d25f12
+}
+
+.list1 {
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+.list2 {
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+.list3 {
+    display: flex;
+    flex-direction: column;
+}
+
+
 
 /****** contact Start *********/
 
 #contact {
 
-    background-color: #000;
+    background-color: rgb(255, 255, 255);
 }
 
 .contact-main {
@@ -273,6 +318,10 @@ button {
     margin-bottom: 30px;
 }
 
+button:last-child {
+    margin-right: 0;
+}
+
 .form-buttons {
     display: flex;
     flex-direction: row;
@@ -292,20 +341,6 @@ textarea {
     width: 100%;
     height: 25vh;
     padding: 10px 10px;
-}
-
-
-/********Services Start**********/
-
-#services {
-    padding: 5vh 0;
-}
-
-.services-main {
-    width: 70vw;
-    max-width: 1000px;
-    margin: 0 auto;
-    text-align: left;
 }
 
 
@@ -377,6 +412,12 @@ footer div {
         justify-content: center;
     }
 
+    .skills {
+        flex-direction: column;
+        margin-top: -50px;
+        margin-bottom: -50px;
+    }
+
     .logo {
         display: flex;
         flex-direction: row;
@@ -402,7 +443,7 @@ footer div {
     }
 
     .about-main div {
-        margin: 100px auto 50px auto;
+        margin: 15px auto 35px auto;
     }
 
     .about-main div:last-child {
@@ -431,11 +472,11 @@ footer div {
     }
 
     .fab {
-        margin-right: 0
+        margin-right: 0;
+        margin-bottom: 10px;
     }
 
     .main-section-header {
-
         position: relative;
         top: 175px;
         left: -30px;
@@ -445,6 +486,13 @@ footer div {
         background-image: url(images/2.jpg);
         background-size: cover;
         background-position: bottom left;
+    }
+
+    .form-buttons {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
     }
 
 }
