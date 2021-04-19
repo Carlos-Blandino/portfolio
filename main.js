@@ -1,9 +1,9 @@
-const localLibraryButton = document.querySelector("#localLibrary");
+const movieProjectButton = document.querySelector("#movieProject");
 const decoderRingButton = document.querySelector("#decoderRing");
 
-localLibraryButton.addEventListener("click", (event) => {
+movieProjectButton.addEventListener("click", (event) => {
     event.preventDefault();
-    window.open("https://carlos-blandino.github.io/local-library-project/", "_blank")
+    window.open("https://starter-movie-front-end-mocha.vercel.app/", "_blank")
 });
 decoderRingButton.addEventListener("click", (event) => {
     event.preventDefault();
