@@ -5,7 +5,7 @@ const grubDashProject = document.querySelector("#grubDashProject");
 
 grubDashProject.addEventListener("click", (event) => {
     event.preventDefault();
-    window.open("https://starter-grub-dash-front-end-plum.vercel.app/dashboard", "_blank")
+    window.open("https://starter-grub-dash-front-end-plum.vercel.app/", "_blank")
 });
 
 movieProjectButton.addEventListener("click", (event) => {
