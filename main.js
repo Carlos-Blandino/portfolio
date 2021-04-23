@@ -1,7 +1,7 @@
 const movieProjectButton = document.querySelector("#movieProject");
 const decoderRingButton = document.querySelector("#decoderRing");
 const pomodoroProjectButton = document.querySelector("#pomodoroProject")
-const grubDashProject = document.querySelector("#grubdashProject");
+const grubDashProject = document.querySelector("#grubDashProject");
 
 grubDashProject.addEventListener("click", (event) => {
     event.preventDefault();
