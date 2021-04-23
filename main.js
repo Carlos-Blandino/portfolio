@@ -1,6 +1,12 @@
 const movieProjectButton = document.querySelector("#movieProject");
 const decoderRingButton = document.querySelector("#decoderRing");
 const pomodoroProjectButton = document.querySelector("#pomodoroProject")
+const grubDashProject = document.querySelector("#grubdashProject");
+
+grubDashProject.addEventListener("click", (event) => {
+    event.preventDefault();
+    window.open("https://starter-grub-dash-front-end-plum.vercel.app/dashboard", "_blank")
+});
 
 movieProjectButton.addEventListener("click", (event) => {
     event.preventDefault();
