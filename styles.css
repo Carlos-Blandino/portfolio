@@ -168,7 +168,13 @@ nav {
 /* end of header */
 
 
-/***** main starty **************/
+/***** main start **************/
+
+
+.about-content {
+  padding-top: 2vw;
+
+}
 
 
 /******** home start - Billboard ************/
@@ -216,7 +222,6 @@ nav {
 /******** about ********/
 
 .about-main {
-
     width: 70vw;
     max-width: 1000px;
     margin: 0 auto;
@@ -449,6 +454,7 @@ footer div {
         flex-direction: row;
     }
 }
+
 
 @media all and (max-width: 593px) {
     header nav ul li {
