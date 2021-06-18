@@ -124,11 +124,11 @@ header {
 /***** nav links ****************/
 
 nav a:link {
-    color: #d25f12;
+    color: #f59819;
 }
 
 nav a:visited {
-    color: #893d0b;
+    color: #bf8512;
 }
 
 nav a:hover {
